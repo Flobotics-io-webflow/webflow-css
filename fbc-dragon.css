@@ -2,7 +2,7 @@
 /* =========================================================
    FBC-DRAGON — Scoped styles for the Dragon/Microsoft LP embed
    ========================================================= */
-.fbc-aws{--c-bg:#fff;--c-ink:#0c1426;--c-muted:#5b6477;--c-line:#e8eaf0;--c-soft:#f5f6fa;--c-brand:#7C3AED;--c-brand-ink:#5B21B6;--c-brand-soft:#EDE9FE;--c-mint:#EDE9FE;--c-mint-ink:#4C1D95;--c-warm:#fdf3e6;--c-warm-ink:#8a4d00;--c-ice:#F5F3FF;--c-orange:#ff8c00;--r-sm:10px;--r-md:14px;--r-lg:22px;--r-xl:34px;--max:1180px;--gap:clamp(20px,3vw,40px);color:var(--c-ink);font-family:Manrope,system-ui,-apple-system,sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
+.fbc-aws{--c-bg:#fff;--c-ink:#0c1426;--c-muted:#5b6477;--c-line:#e8eaf0;--c-soft:#f5f6fa;--c-brand:#7C3AED;--c-brand-ink:#5B21B6;--c-brand-soft:#EDE9FE;--c-mint:#EDE9FE;--c-mint-ink:#4C1D95;--c-warm:#ede9fe;--c-warm-ink:#4c1d95;--c-ice:#F5F3FF;--c-orange:#8b5cf6;--r-sm:10px;--r-md:14px;--r-lg:22px;--r-xl:34px;--max:1180px;--gap:clamp(20px,3vw,40px);color:var(--c-ink);font-family:Manrope,system-ui,-apple-system,sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
 .fbc-aws *{box-sizing:border-box}
 .fbc-aws .container{max-width:var(--max);margin:0 auto;padding:0 24px}
 .fbc-aws .section{padding:clamp(56px,7vw,104px) 0}
@@ -81,8 +81,8 @@
 .fbc-aws .feature__media svg{position:relative;width:62%;max-width:340px;color:var(--c-brand)}
 .fbc-aws .feature__media--mint{background:linear-gradient(160deg,#F5F3FF,#DDD6FE)}
 .fbc-aws .feature__media--mint .feature__media-bg{background-image:radial-gradient(circle at 1px 1px,rgba(76,29,149,.18) 1px,transparent 1px)}
-.fbc-aws .feature__media--warm{background:linear-gradient(160deg,#fdf3e6,#ffe6cc)}
-.fbc-aws .feature__media--warm .feature__media-bg{background-image:radial-gradient(circle at 1px 1px,rgba(255,140,0,.25) 1px,transparent 1px)}
+.fbc-aws .feature__media--warm{background:linear-gradient(160deg,#ede9fe,#c4b5fd)}
+.fbc-aws .feature__media--warm .feature__media-bg{background-image:radial-gradient(circle at 1px 1px,rgba(124,58,237,.22) 1px,transparent 1px)}
 /* =====================  PROCESS / PHASES  ===================== */
 .fbc-aws .process__head{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,4vw,56px);align-items:end;margin-bottom:clamp(28px,3.5vw,48px)}
 .fbc-aws .process__head p{color:var(--c-muted);max-width:46ch;margin:0}
@@ -98,7 +98,7 @@
 .fbc-aws .case:hover{transform:translateY(-4px);box-shadow:0 24px 60px -28px rgba(124,58,237,.25)}
 .fbc-aws .case__cover{padding:36px 28px;background:linear-gradient(160deg,var(--c-ice),#a78bfa);color:var(--c-brand-ink);min-height:170px;display:flex;align-items:flex-end}
 .fbc-aws .case__cover--mint{background:linear-gradient(160deg,#e8f6ee,var(--c-mint));color:var(--c-mint-ink)}
-.fbc-aws .case__cover--warm{background:linear-gradient(160deg,#fff0df,var(--c-warm));color:var(--c-warm-ink)}
+.fbc-aws .case__cover--warm{background:linear-gradient(160deg,#f5f0ff,var(--c-warm));color:var(--c-warm-ink)}
 .fbc-aws .case__stat{font-family:"Segoe UI",Inter,sans-serif;font-size:38px;font-weight:700;letter-spacing:-.025em;line-height:1;display:flex;flex-direction:column;gap:6px}
 .fbc-aws .case__stat span{font-family:Manrope,sans-serif;font-size:13px;font-weight:500;letter-spacing:0;opacity:.7;text-transform:none}
 .fbc-aws .case__body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:10px;flex:1}
@@ -138,7 +138,7 @@
 .fbc-aws .agent__cover{aspect-ratio:5/3;background:linear-gradient(160deg,var(--c-soft),#fff);display:flex;align-items:center;justify-content:center}
 .fbc-aws .agent__cover--ice{background:linear-gradient(160deg,var(--c-ice),#a78bfa)}
 .fbc-aws .agent__cover--mint{background:linear-gradient(160deg,#F5F3FF,var(--c-mint))}
-.fbc-aws .agent__cover--orange{background:linear-gradient(160deg,#fdf3e6,#ffe6cc)}
+.fbc-aws .agent__cover--orange{background:linear-gradient(160deg,#ede9fe,#c4b5fd)}
 .fbc-aws .agent__glyph{width:64px;height:64px;border-radius:18px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--c-ink);box-shadow:0 8px 22px -10px rgba(124,58,237,.25)}
 .fbc-aws .agent__glyph svg{width:32px;height:32px}
 .fbc-aws .agent__body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
