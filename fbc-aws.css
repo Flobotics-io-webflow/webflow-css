@@ -2,7 +2,7 @@
 /* =========================================================
    FBC-AWS — Scoped styles for the AWS Connect Health LP embed
    ========================================================= */
-.fbc-aws{--c-bg:#fff;--c-ink:#0c1426;--c-muted:#5b6477;--c-line:#e8eaf0;--c-soft:#f5f6fa;--c-brand:#2648dc;--c-brand-ink:#1a2eaa;--c-brand-soft:#e0f4ff;--c-mint:#d6f1e3;--c-mint-ink:#0f5132;--c-warm:#fde9d4;--c-warm-ink:#7a3d00;--c-ice:#d1fbff;--c-orange:#ff7a59;--r-sm:10px;--r-md:14px;--r-lg:22px;--r-xl:34px;--max:1180px;--gap:clamp(20px,3vw,40px);color:var(--c-ink);font-family:Manrope,system-ui,-apple-system,sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
+.fbc-aws{--c-bg:#fff;--c-ink:#0c1426;--c-muted:#5b6477;--c-line:#e8eaf0;--c-soft:#f5f6fa;--c-brand:#2648dc;--c-brand-ink:#1a2eaa;--c-brand-soft:#e0f4ff;--c-mint:#d6f1e3;--c-mint-ink:#0f5132;--c-warm:#dce8ff;--c-warm-ink:#1a2eaa;--c-ice:#d1fbff;--c-orange:#4a7fff;--r-sm:10px;--r-md:14px;--r-lg:22px;--r-xl:34px;--max:1180px;--gap:clamp(20px,3vw,40px);color:var(--c-ink);font-family:Manrope,system-ui,-apple-system,sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
 .fbc-aws *{box-sizing:border-box}
 .fbc-aws .container{max-width:var(--max);margin:0 auto;padding:0 24px}
 .fbc-aws .section{padding:clamp(56px,7vw,104px) 0}
@@ -81,8 +81,8 @@
 .fbc-aws .feature__media svg{position:relative;width:62%;max-width:340px;color:var(--c-brand)}
 .fbc-aws .feature__media--mint{background:linear-gradient(160deg,#eaf7ef,#cfeedc)}
 .fbc-aws .feature__media--mint .feature__media-bg{background-image:radial-gradient(circle at 1px 1px,rgba(15,81,50,.18) 1px,transparent 1px)}
-.fbc-aws .feature__media--warm{background:linear-gradient(160deg,#fff1e2,#ffd9b3)}
-.fbc-aws .feature__media--warm .feature__media-bg{background-image:radial-gradient(circle at 1px 1px,rgba(255,122,89,.25) 1px,transparent 1px)}
+.fbc-aws .feature__media--warm{background:linear-gradient(160deg,#dce8ff,#a8c4ff)}
+.fbc-aws .feature__media--warm .feature__media-bg{background-image:radial-gradient(circle at 1px 1px,rgba(38,72,220,.22) 1px,transparent 1px)}
 /* =====================  PROCESS / PHASES  ===================== */
 .fbc-aws .process__head{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,4vw,56px);align-items:end;margin-bottom:clamp(28px,3.5vw,48px)}
 .fbc-aws .process__head p{color:var(--c-muted);max-width:46ch;margin:0}
@@ -98,7 +98,7 @@
 .fbc-aws .case:hover{transform:translateY(-4px);box-shadow:0 24px 60px -28px rgba(20,30,90,.25)}
 .fbc-aws .case__cover{padding:36px 28px;background:linear-gradient(160deg,var(--c-ice),#c5b8ff);color:var(--c-brand-ink);min-height:170px;display:flex;align-items:flex-end}
 .fbc-aws .case__cover--mint{background:linear-gradient(160deg,#e8f6ee,var(--c-mint));color:var(--c-mint-ink)}
-.fbc-aws .case__cover--warm{background:linear-gradient(160deg,#fff0df,var(--c-warm));color:var(--c-warm-ink)}
+.fbc-aws .case__cover--warm{background:linear-gradient(160deg,#eef3ff,var(--c-warm));color:var(--c-warm-ink)}
 .fbc-aws .case__stat{font-family:"Bricolage Grotesque",Manrope,sans-serif;font-size:38px;font-weight:700;letter-spacing:-.025em;line-height:1;display:flex;flex-direction:column;gap:6px}
 .fbc-aws .case__stat span{font-family:Manrope,sans-serif;font-size:13px;font-weight:500;letter-spacing:0;opacity:.7;text-transform:none}
 .fbc-aws .case__body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:10px;flex:1}
@@ -128,7 +128,7 @@
 .fbc-aws .cta__btn-secondary:hover{background:rgba(255,255,255,.18)}
 .fbc-aws .cta__small{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55);margin:0}
 .fbc-aws .cta__person{position:relative;z-index:1;text-align:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--r-lg);padding:24px;backdrop-filter:blur(8px)}
-.fbc-aws .cta__avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(140deg,#ffd28a,#ff7a59);color:#fff;font-weight:700;font-size:22px;display:inline-flex;align-items:center;justify-content:center;margin:0 auto 14px;border:3px solid rgba(255,255,255,.18)}
+.fbc-aws .cta__avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(140deg,#a8c4ff,#2648dc);color:#fff;font-weight:700;font-size:22px;display:inline-flex;align-items:center;justify-content:center;margin:0 auto 14px;border:3px solid rgba(255,255,255,.18)}
 .fbc-aws .cta__name{font-size:16px;font-weight:600;color:#fff;margin:0 0 2px}
 .fbc-aws .cta__role{font-size:12.5px;color:rgba(255,255,255,.65);margin:0}
 /* =====================  AGENT CROSS-SELL  ===================== */
@@ -138,7 +138,7 @@
 .fbc-aws .agent__cover{aspect-ratio:5/3;background:linear-gradient(160deg,var(--c-soft),#fff);display:flex;align-items:center;justify-content:center}
 .fbc-aws .agent__cover--ice{background:linear-gradient(160deg,var(--c-ice),#c5b8ff)}
 .fbc-aws .agent__cover--mint{background:linear-gradient(160deg,#e8f6ee,var(--c-mint))}
-.fbc-aws .agent__cover--orange{background:linear-gradient(160deg,#fff1e2,#ffd2bb)}
+.fbc-aws .agent__cover--orange{background:linear-gradient(160deg,#dce8ff,#a8c4ff)}
 .fbc-aws .agent__glyph{width:64px;height:64px;border-radius:18px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--c-ink);box-shadow:0 8px 22px -10px rgba(20,30,90,.25)}
 .fbc-aws .agent__glyph svg{width:32px;height:32px}
 .fbc-aws .agent__body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
