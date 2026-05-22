@@ -1,368 +1,170 @@
-<!-- Flobotics — Nuance DAX Copilot LP · HTML embed · links wired 2026-05-20 -->
-<div class="fbc-aws">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Flobotics-io-webflow/webflow-css/fbc-dragon.css">
-<section class="hero" data-screen-label="01 Hero">
-  <div class="hero__bg" aria-hidden="true"></div>
-  <div class="container hero__grid">
-    <div class="hero__text">
-      <span class="eyebrow">
-        <span>MICROSOFT</span><span class="sep"></span>
-        <span>NUANCE DAX</span>
-      </span>
-      <h1>Your notes write themselves. You treat patients.</h1>
-      <p class="hero__sub">
-        DAX Copilot listens to your visit and drafts the SOAP note directly in your EHR. Close the chart before you leave the room.
-      </p>
-      <div class="hero__featured">
-        <span>Powered by:</span>
-        <span class="hero__featured-logo">Microsoft Cloud for Healthcare</span>
-      </div>
-      <div class="hero__actions">
-        <a href="https://meetings-eu1.hubspot.com/karl-mielnicki/intro-call" class="btn btn--primary">
-          Book a call
-          <span class="btn__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <rect x="4" y="6" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/>
-              <path d="M4 10h16M9 4v4M15 4v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-        <a href="/agents" class="btn btn--secondary">
-          Meet the agents
-          <span class="btn__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-    </div>
-    <div class="hero__visual">
-      <img src="https://cdn.prod.website-files.com/694296db33698e0cb6d6f01d/6a0da97bc988d2ce9266e1fc_DragonCopilot-Image2.png" alt="DragonCopilot ambient AI clinical documentation" />
-    </div>
-  </div>
-</section>
-<section class="container">
-  <div class="pillars">
-    <div class="pillar">
-      <div class="pillar__icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M12 7v5l3 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-      </div>
-      <h3 class="pillar__title">50% less charting time.</h3>
-      <p class="pillar__sub">Verified across 300+ health systems.</p>
-    </div>
-    <div class="pillar">
-      <div class="pillar__icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l8 3v6c0 5-3.5 8.5-8 9.5-4.5-1-8-4.5-8-9.5V6l8-3z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <h3 class="pillar__title">HIPAA &amp; HITRUST certified.</h3>
-      <p class="pillar__sub">Backed by the Microsoft Trust Center.</p>
-    </div>
-    <div class="pillar">
-      <div class="pillar__icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v10M9 9.5h5a1.5 1.5 0 010 3H10a1.5 1.5 0 000 3h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-      </div>
-      <h3 class="pillar__title">Notes in your EHR.</h3>
-      <p class="pillar__sub">Drafts land in Epic, Cerner, and more.</p>
-    </div>
-  </div>
-</section>
-<section id="features" class="section">
-  <div class="container">
-    <div class="section-head--centered">
-      <span class="eyebrow eyebrow--brand">
-        <span>THE DAX ADVANTAGE</span>
-      </span>
-      <h2 class="section-head__title">Stop charting.<br/>Start caring.</h2>
-      <p class="section-head__sub">
-        DAX listens to your patient visit and produces a complete SOAP note in seconds. No templates, no dictation, no after-hours backlog.
-      </p>
-    </div>
-    <article class="feature" data-screen-label="feature-ambient">
-      <div class="feature__text">
-        <span class="eyebrow feature__eyebrow">
-          <span>AMBIENT LISTENING</span><span class="sep"></span><span>AI DRAFTING</span>
-        </span>
-        <h3 class="feature__title">Press record. <em>Walk away with a note.</em></h3>
-        <p class="feature__lead">
-          Talk to your patient like normal. DAX handles the documentation.
-        </p>
-        <p class="feature__body">
-          DAX picks up clinically relevant content from natural conversation and structures it into a SOAP note — ready for review before you reach the next room. No templates to fill, no dictation script.
-        </p>
-        <ul class="feature__bullets">
-          <li>Captures full encounter context</li>
-          <li>SOAP note in under 60 seconds</li>
-          <li>Works across all specialties</li>
-          <li>No templates to fill</li>
-        </ul>
-        <a href="/rcm-automation" class="btn btn--primary">
-          See it in action
-          <span class="btn__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-      <div class="feature__media">
-        <div class="feature__media-bg" aria-hidden="true"></div>
-        <svg viewBox="0 0 200 160" fill="none" aria-hidden="true">
-          <rect x="62" y="14" width="76" height="132" rx="14" stroke="currentColor" stroke-width="3" fill="rgba(255,255,255,.5)"/>
-          <rect x="74" y="32" width="52" height="80" rx="4" stroke="currentColor" stroke-width="2" fill="#fff" opacity=".8"/>
-          <path d="M82 56h36M82 68h28M82 80h32M82 92h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="100" cy="128" r="6" stroke="currentColor" stroke-width="2"/>
-          <path d="M86 24h28M94 20h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-      </div>
-    </article>
-    <article class="feature feature--reverse" data-screen-label="feature-ehr">
-      <div class="feature__text">
-        <span class="eyebrow feature__eyebrow">
-          <span>WORKFLOW INTEGRATION</span><span class="sep"></span><span>EHR</span>
-        </span>
-        <h3 class="feature__title">Draft appears <em>in the patient chart.</em></h3>
-        <p class="feature__lead">
-          Walk out of the room. The note is already waiting in Epic or Cerner.
-        </p>
-        <p class="feature__body">
-          DAX pushes the drafted note directly into your EHR fields. Review, edit if needed, and sign. Zero copy-paste, zero manual entry, zero tab-switching.
-        </p>
-        <ul class="feature__bullets">
-          <li>Native Epic &amp; Cerner integration</li>
-          <li>Auto-populates data fields</li>
-          <li>Physician retains final review</li>
-          <li>Zero copy-and-paste</li>
-        </ul>
-        <a href="/rcm-automation" class="btn btn--primary">
-          View integrations
-          <span class="btn__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-      <div class="feature__media feature__media--mint">
-        <div class="feature__media-bg" aria-hidden="true"></div>
-        <svg viewBox="0 0 200 160" fill="none" aria-hidden="true">
-          <rect x="32" y="28" width="136" height="108" rx="10" stroke="currentColor" stroke-width="3" fill="#fff" opacity=".82"/>
-          <path d="M32 56h136" stroke="currentColor" stroke-width="3"/>
-          <path d="M58 28v-10M142 28v-10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-          <rect x="48" y="72" width="22" height="18" rx="3" fill="currentColor" opacity=".18"/>
-          <rect x="80" y="72" width="22" height="18" rx="3" fill="currentColor" opacity=".35"/>
-          <rect x="112" y="72" width="22" height="18" rx="3" fill="currentColor"/>
-          <rect x="48" y="98" width="22" height="18" rx="3" fill="currentColor" opacity=".15"/>
-          <rect x="80" y="98" width="22" height="18" rx="3" fill="currentColor" opacity=".25"/>
-          <rect x="112" y="98" width="22" height="18" rx="3" fill="currentColor" opacity=".18"/>
-        </svg>
-      </div>
-    </article>
-    <article class="feature" data-screen-label="feature-burnout">
-      <div class="feature__text">
-        <span class="eyebrow feature__eyebrow">
-          <span>PHYSICIAN WELL-BEING</span><span class="sep"></span><span>ROI</span>
-        </span>
-        <h3 class="feature__title">No more <em>&ldquo;pajama-time&rdquo; charting.</em></h3>
-        <p class="feature__lead">
-          2+ hours of after-hours documentation, gone.
-        </p>
-        <p class="feature__body">
-          Clinicians using DAX report 50%+ reduction in charting time. Evenings stay evenings. More patient face-time during the day, more energy after hours. Lower burnout, higher retention.
-        </p>
-        <ul class="feature__bullets">
-          <li>50% less time charting</li>
-          <li>2+ hours/day returned</li>
-          <li>More patient face-time</li>
-          <li>Lower burnout rates</li>
-        </ul>
-        <a href="/roi-calculator" class="btn btn--primary">
-          Calculate ROI
-          <span class="btn__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-      <div class="feature__media">
-        <div class="feature__media-bg" aria-hidden="true"></div>
-        <svg viewBox="0 0 220 160" fill="none" aria-hidden="true">
-          <rect x="12" y="64" width="50" height="32" rx="6" stroke="currentColor" stroke-width="2" fill="#fff" opacity=".85"/>
-          <text x="37" y="84" text-anchor="middle" fill="currentColor" font-family="JetBrains Mono,monospace" font-size="9" font-weight="700">AUDIO</text>
-          <path d="M62 80h32" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3"/>
-          <rect x="94" y="48" width="56" height="64" rx="8" stroke="currentColor" stroke-width="2" fill="#fff" opacity=".85"/>
-          <path d="M104 64h36M104 76h24M104 88h28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          <text x="122" y="106" text-anchor="middle" fill="currentColor" font-family="JetBrains Mono,monospace" font-size="8" font-weight="700">DAX AI</text>
-          <path d="M150 80h32" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3"/>
-          <rect x="182" y="64" width="26" height="32" rx="6" fill="currentColor" opacity=".75"/>
-          <text x="195" y="84" text-anchor="middle" fill="#fff" font-family="JetBrains Mono,monospace" font-size="9" font-weight="700">EHR</text>
-        </svg>
-      </div>
-    </article>
-    <article class="feature feature--reverse" data-screen-label="feature-security">
-      <div class="feature__text">
-        <span class="eyebrow feature__eyebrow">
-          <span>ENTERPRISE GRADE</span><span class="sep"></span><span>SECURITY</span>
-        </span>
-        <h3 class="feature__title">Your PHI stays <em>locked down.</em></h3>
-        <p class="feature__lead">
-          HIPAA-compliant from day one. IT signs off once, you&rsquo;re done.
-        </p>
-        <p class="feature__body">
-          DAX runs on Microsoft Azure &mdash; encrypted in transit, encrypted at rest, role-based access controls, full audit trails. Passes your InfoSec review without a custom security assessment.
-        </p>
-        <ul class="feature__bullets">
-          <li>HIPAA &amp; HITRUST compliant</li>
-          <li>Azure-grade encryption</li>
-          <li>Strict access controls</li>
-          <li>Enterprise scalability</li>
-        </ul>
-        <a href="/contact" class="btn btn--primary">
-          Read Trust Center
-          <span class="btn__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-      <div class="feature__media feature__media--warm">
-        <div class="feature__media-bg" aria-hidden="true"></div>
-        <svg viewBox="0 0 200 160" fill="none" aria-hidden="true">
-          <path d="M10 80h28l8-20 12 50 10-44 12 30 10-16h28" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <path d="M118 80h28" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-          <path d="M148 80c0-22 18-40 40-40v80c-22 0-40-18-40-40z" fill="currentColor" opacity=".18"/>
-          <circle cx="168" cy="80" r="6" fill="currentColor"/>
-        </svg>
-      </div>
-    </article>
-  </div>
-</section>
-<section class="section--sm">
-  <div class="container">
-    <div class="process">
-      <div class="process__head">
-        <div>
-          <span class="eyebrow eyebrow--brand">
-            <span>DEPLOYMENT</span>
-          </span>
-          <h2>Live in 4 steps.</h2>
-        </div>
-        <p>Flobotics handles the end-to-end setup &mdash; from workflow audit to go-live. Most deployments are complete within 30 days.</p>
-      </div>
-      <div class="process__grid">
-        <article class="phase">
-          <span class="phase__num">Phase 01</span>
-          <h3 class="phase__title">Workflow Audit</h3>
-          <p class="phase__body">We map your current documentation workflows, identify the highest-value specialties, and set deployment targets.</p>
-          <span class="phase__time">Week 1</span>
-        </article>
-        <article class="phase">
-          <span class="phase__num">Phase 02</span>
-          <h3 class="phase__title">EHR Connection</h3>
-          <p class="phase__body">Secure API links DAX to your Epic, Cerner, or MEDITECH environment. No middleware, no custom dev required.</p>
-          <span class="phase__time">Week 1&ndash;2</span>
-        </article>
-        <article class="phase">
-          <span class="phase__num">Phase 03</span>
-          <h3 class="phase__title">Clinician Onboarding</h3>
-          <p class="phase__body">30-minute setup per physician. Press record, talk to your patient, review the draft. That&rsquo;s the full workflow.</p>
-          <span class="phase__time">Week 2&ndash;3</span>
-        </article>
-        <article class="phase">
-          <span class="phase__num">Phase 04</span>
-          <h3 class="phase__title">Go-Live &amp; Scale</h3>
-          <p class="phase__body">Roll out to entire departments. Monitor adoption metrics, gather feedback, and continuously optimize performance.</p>
-          <span class="phase__time">Enterprise Rollout</span>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section--sm">
-  <div class="container">
-    <div class="section-head--centered">
-      <span class="eyebrow eyebrow--brand">
-        <span>PROVEN IMPACT</span><span class="sep"></span><span>CLINICAL OUTCOMES</span>
-      </span>
-      <h2 class="section-head__title">Results from real RCM deployments.</h2>
-    </div>
-    <div class="cases">
-      <article class="case">
-        <div class="case__cover">
-          <div class="case__stat">$50K<span>recovered in month one</span></div>
-        </div>
-        <div class="case__body">
-          <p class="case__meta">Healthcare billing &middot; denials management</p>
-          <h4 class="case__title">Manual denial processing replaced by AI &mdash; revenue recovered without adding headcount.</h4>
-          <p class="case__excerpt">AI agent decodes every EOB, identifies CARC/RARC root causes, corrects rule-based issues, and auto-generates resubmissions &mdash; running 24/7 from day one.</p>
-          <a href="/case-studies/50k-saved-in-1-month-ai-agent-for-denials-management" class="case__link">Read case study</a>
-        </div>
-      </article>
-      <article class="case">
-        <div class="case__cover case__cover--mint">
-          <div class="case__stat">50%<span>monthly backlog cut</span></div>
-        </div>
-        <div class="case__body">
-          <p class="case__meta">Multi-site provider &middot; eligibility automation</p>
-          <h4 class="case__title">Eligibility backlog halved &mdash; verification running overnight, every night, without staff.</h4>
-          <p class="case__excerpt">AI agent pulls patient PHI, verifies active coverage across all payers, and logs results back to the EHR autonomously. Backlog cut in half within the first quarter.</p>
-          <a href="/case-studies/halving-monthly-backlog---eligibility-automation-in-action" class="case__link">Read case study</a>
-        </div>
-      </article>
-      <article class="case">
-        <div class="case__cover case__cover--warm">
-          <div class="case__stat">100% ROI<span>in just 23 days</span></div>
-        </div>
-        <div class="case__body">
-          <p class="case__meta">Pain Treatment Centers of America &middot; eligibility</p>
-          <h4 class="case__title">From manual eligibility calls to fully automated verification &mdash; 3 FTEs freed in the first month.</h4>
-          <p class="case__excerpt">AI agent handles 100% of eligibility checks end-to-end across all payers. $180K in first-year savings, full ROI achieved in 23 days of production operation.</p>
-          <a href="/case-studies/100-roi-in-just-23-days-we-automated-eligibility-checks" class="case__link">Read case study</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-<section class="section--sm">
-  <div class="container">
-    <div class="cta">
-      <div class="cta__inner">
-        <span class="eyebrow eyebrow--inverse">
-          <span>TRANSFORM YOUR WORKFLOW</span>
-        </span>
-        <h2>Ready to experience the future of clinical documentation?</h2>
-        <p class="cta__sub">
-          Connect with a Nuance representative to discuss implementing DAX Copilot for your practice or health system.
-        </p>
-        <div class="cta__actions">
-          <a href="/contact" class="btn btn--primary">
-            Request a Demo
-            <span class="btn__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none">
-                <rect x="4" y="6" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/>
-                <path d="M4 10h16M9 4v4M15 4v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-              </svg>
-            </span>
-          </a>
-          <a href="/contact" class="btn cta__btn-secondary">
-            Contact Sales
-            <span class="btn__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
-          </a>
-        </div>
-        <p class="cta__small">Epic &amp; Cerner Integrated &middot; HIPAA Compliant &middot; Microsoft Cloud</p>
-      </div>
-      <div class="cta__person">
-        <div class="cta__avatar">NC</div>
-        <p class="cta__name">Nuance Healthcare</p>
-        <p class="cta__role">A Microsoft Company</p>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+/* =========================================================
+   FBC-DRAGON — Scoped styles for the Dragon/Microsoft LP embed
+   ========================================================= */
+.fbc-aws{--c-bg:#fff;--c-ink:#0c1426;--c-muted:#5b6477;--c-line:#e8eaf0;--c-soft:#f5f6fa;--c-brand:#7C3AED;--c-brand-ink:#5B21B6;--c-brand-soft:#EDE9FE;--c-mint:#EDE9FE;--c-mint-ink:#4C1D95;--c-warm:#ede9fe;--c-warm-ink:#4c1d95;--c-ice:#F5F3FF;--c-orange:#8b5cf6;--r-sm:10px;--r-md:14px;--r-lg:22px;--r-xl:34px;--max:1180px;--gap:clamp(20px,3vw,40px);color:var(--c-ink);font-family:Manrope,system-ui,-apple-system,sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
+.fbc-aws *{box-sizing:border-box}
+.fbc-aws .container{max-width:var(--max);margin:0 auto;padding:0 24px}
+.fbc-aws .section{padding:clamp(56px,7vw,104px) 0}
+.fbc-aws .section--sm{padding:clamp(40px,5vw,80px) 0}
+.fbc-aws h1,.fbc-aws h2,.fbc-aws h3,.fbc-aws h4{font-family:"Bricolage Grotesque",Manrope,system-ui,sans-serif;font-weight:600;letter-spacing:-.02em;color:var(--c-ink);margin:0 0 .4em}
+.fbc-aws h1{font-size:clamp(36px,5.4vw,68px);line-height:1.04;letter-spacing:-.025em}
+.fbc-aws h2{font-size:clamp(28px,3.6vw,46px);line-height:1.1}
+.fbc-aws h3{font-size:clamp(22px,2.4vw,30px);line-height:1.18}
+.fbc-aws h4{font-size:clamp(18px,1.6vw,22px);line-height:1.25}
+.fbc-aws p{margin:0 0 1em;color:var(--c-muted)}
+.fbc-aws p strong{color:var(--c-ink);font-weight:600}
+.fbc-aws em{font-style:italic;color:var(--c-brand)}
+.fbc-aws a{color:inherit;text-decoration:none}
+.fbc-aws ul{padding:0;margin:0;list-style:none}
+/* Eyebrow */
+.fbc-aws .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--c-muted);margin:0 0 18px}
+.fbc-aws .eyebrow .sep{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.4}
+.fbc-aws .eyebrow--brand{color:var(--c-brand)}
+.fbc-aws .eyebrow--inverse{color:rgba(255,255,255,.7)}
+/* Buttons */
+.fbc-aws .btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:600;font-size:15px;line-height:1;transition:transform .15s ease,box-shadow .2s ease,background .15s ease,color .15s ease;cursor:pointer;border:1px solid transparent;white-space:nowrap}
+.fbc-aws .btn:hover{transform:translateY(-1px)}
+.fbc-aws .btn--primary{background:var(--c-brand);color:#fff;box-shadow:0 8px 24px -8px rgba(124,58,237,.55)}
+.fbc-aws .btn--primary:hover{background:var(--c-brand-ink)}
+.fbc-aws .btn--secondary{background:#fff;color:var(--c-ink);border-color:var(--c-line)}
+.fbc-aws .btn--secondary:hover{border-color:var(--c-ink)}
+.fbc-aws .btn__icon{width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center}
+.fbc-aws .btn__icon svg{width:100%;height:100%}
+/* =====================  HERO  ===================== */
+.fbc-aws .hero{position:relative;padding:clamp(72px,9vw,128px) 0 clamp(56px,7vw,96px);overflow:hidden}
+.fbc-aws .hero__bg{position:absolute;inset:0;background:radial-gradient(1100px 540px at 12% -10%,#EDE9FE 0%,rgba(237,233,254,0) 60%),radial-gradient(800px 400px at 100% 0%,#e6e6fa 0%,rgba(230,230,250,0) 55%);z-index:0}
+.fbc-aws .hero__grid{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,4vw,72px);align-items:center}
+.fbc-aws .hero__text{max-width:640px}
+.fbc-aws .hero__sub{font-size:clamp(16px,1.35vw,19px);color:var(--c-muted);max-width:55ch;margin-bottom:28px}
+.fbc-aws .hero__featured{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px dashed var(--c-line);border-radius:999px;font-size:13px;color:var(--c-muted);margin-bottom:32px}
+.fbc-aws .hero__featured-logo{font-weight:700;color:var(--c-ink);letter-spacing:-.01em}
+.fbc-aws .hero__actions{display:flex;flex-wrap:wrap;gap:12px}
+/* Hero visual */
+.fbc-aws .hero__visual{position:relative;max-width:520px;margin-left:auto}
+.fbc-aws .hero__visual img{width:100%;height:auto;display:block;border-radius:var(--r-xl);box-shadow:0 30px 80px -30px rgba(124,58,237,.3)}
+/* =====================  LOGOS  ===================== */
+.fbc-aws .logos{padding:36px 0 8px}
+.fbc-aws .logos__label{text-align:center;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--c-muted);margin:0 0 22px}
+.fbc-aws .logos__row{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:clamp(24px,4vw,56px);opacity:.85}
+.fbc-aws .logo-placeholder{font-family:"Bricolage Grotesque",Manrope,sans-serif;font-weight:700;font-size:20px;letter-spacing:-.02em;color:#9aa3b6;padding:8px 4px;filter:grayscale(1)}
+.fbc-aws .logo-placeholder--alt{font-style:italic}
+.fbc-aws .logo-placeholder--alt2{text-transform:uppercase;letter-spacing:.05em;font-size:14px}
+/* =====================  PILLARS  ===================== */
+.fbc-aws .pillars{margin:48px 0;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px dashed var(--c-line);border-radius:var(--r-lg);background:#fff;padding:clamp(20px,2.4vw,32px) 0;position:relative}
+.fbc-aws .pillar{padding:clamp(18px,2vw,28px) clamp(20px,2.4vw,40px);text-align:center;position:relative}
+.fbc-aws .pillar+.pillar::before{content:"";position:absolute;left:0;top:18%;bottom:18%;width:1px;background-image:linear-gradient(to bottom,var(--c-line) 0 4px,transparent 4px 10px);background-size:1px 10px;background-repeat:repeat-y}
+.fbc-aws .pillar__icon{width:44px;height:44px;margin:0 auto 14px;border-radius:12px;background:var(--c-brand-soft);color:var(--c-brand);display:inline-flex;align-items:center;justify-content:center}
+.fbc-aws .pillar__icon svg{width:22px;height:22px}
+.fbc-aws .pillar__title{font-size:18px;margin-bottom:4px;letter-spacing:-.01em}
+.fbc-aws .pillar__sub{font-size:14px;color:var(--c-muted);margin:0}
+/* =====================  SECTION HEAD  ===================== */
+.fbc-aws .section-head--centered{text-align:center;max-width:760px;margin:0 auto clamp(36px,4vw,56px)}
+.fbc-aws .section-head--centered .eyebrow{justify-content:center}
+.fbc-aws .section-head__title{margin-bottom:14px}
+.fbc-aws .section-head__sub{color:var(--c-muted);font-size:clamp(15px,1.2vw,17px);max-width:60ch;margin:0 auto}
+/* =====================  FEATURE BLOCKS  ===================== */
+.fbc-aws .feature{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,80px);align-items:center;padding:clamp(36px,5vw,72px) 0;border-top:1px solid var(--c-line)}
+.fbc-aws .feature:first-of-type{border-top:0;padding-top:0}
+.fbc-aws .feature--reverse{direction:rtl}
+.fbc-aws .feature--reverse>*{direction:ltr}
+.fbc-aws .feature__text{max-width:560px}
+.fbc-aws .feature__eyebrow{margin-bottom:14px}
+.fbc-aws .feature__title{margin-bottom:14px}
+.fbc-aws .feature__lead{font-size:clamp(16px,1.25vw,18px);color:var(--c-ink);margin-bottom:14px;font-weight:500}
+.fbc-aws .feature__body{font-size:15px;color:var(--c-muted);margin-bottom:22px}
+.fbc-aws .feature__bullets{display:flex;flex-wrap:wrap;gap:8px 10px;margin:0 0 24px}
+.fbc-aws .feature__bullets li{font-size:12.5px;font-weight:600;letter-spacing:.02em;color:var(--c-brand-ink);background:var(--c-brand-soft);padding:6px 12px;border-radius:999px}
+/* Media side — halftone visuals */
+.fbc-aws .feature__media{position:relative;aspect-ratio:5/4;border-radius:var(--r-xl);background:linear-gradient(160deg,#EDE9FE,#c4b5fd);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.fbc-aws .feature__media-bg{position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,rgba(124,58,237,.18) 1px,transparent 1px);background-size:6px 6px;mask-image:radial-gradient(60% 60% at 50% 50%,#000 35%,transparent 75%);-webkit-mask-image:radial-gradient(60% 60% at 50% 50%,#000 35%,transparent 75%)}
+.fbc-aws .feature__media svg{position:relative;width:62%;max-width:340px;color:var(--c-brand)}
+.fbc-aws .feature__media--mint{background:linear-gradient(160deg,#F5F3FF,#DDD6FE)}
+.fbc-aws .feature__media--mint .feature__media-bg{background-image:radial-gradient(circle at 1px 1px,rgba(76,29,149,.18) 1px,transparent 1px)}
+.fbc-aws .feature__media--warm{background:linear-gradient(160deg,#ede9fe,#c4b5fd)}
+.fbc-aws .feature__media--warm .feature__media-bg{background-image:radial-gradient(circle at 1px 1px,rgba(124,58,237,.22) 1px,transparent 1px)}
+/* =====================  PROCESS / PHASES  ===================== */
+.fbc-aws .process__head{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,4vw,56px);align-items:end;margin-bottom:clamp(28px,3.5vw,48px)}
+.fbc-aws .process__head p{color:var(--c-muted);max-width:46ch;margin:0}
+.fbc-aws .process__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.fbc-aws .phase{background:#fff;border:1px solid var(--c-line);border-radius:var(--r-lg);padding:24px;display:flex;flex-direction:column;gap:8px;position:relative}
+.fbc-aws .phase__num{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--c-brand);margin-bottom:8px}
+.fbc-aws .phase__title{font-size:18px;margin:0 0 6px}
+.fbc-aws .phase__body{font-size:14.5px;color:var(--c-muted);margin:0}
+.fbc-aws .phase__time{display:inline-block;margin-top:auto;padding-top:14px;font-size:12.5px;font-weight:600;color:var(--c-brand-ink)}
+/* =====================  CASE STUDIES  ===================== */
+.fbc-aws .cases{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.fbc-aws .case{background:#fff;border:1px solid var(--c-line);border-radius:var(--r-xl);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s ease,box-shadow .2s ease}
+.fbc-aws .case:hover{transform:translateY(-4px);box-shadow:0 24px 60px -28px rgba(124,58,237,.25)}
+.fbc-aws .case__cover{padding:36px 28px;background:linear-gradient(160deg,var(--c-ice),#a78bfa);color:var(--c-brand-ink);min-height:170px;display:flex;align-items:flex-end}
+.fbc-aws .case__cover--mint{background:linear-gradient(160deg,#f5f3ff,var(--c-mint));color:var(--c-mint-ink)}
+.fbc-aws .case__cover--warm{background:linear-gradient(160deg,#f5f0ff,var(--c-warm));color:var(--c-warm-ink)}
+.fbc-aws .case__stat{font-family:"Bricolage Grotesque",Manrope,sans-serif;font-size:38px;font-weight:700;letter-spacing:-.025em;line-height:1;display:flex;flex-direction:column;gap:6px}
+.fbc-aws .case__stat span{font-family:Manrope,sans-serif;font-size:13px;font-weight:500;letter-spacing:0;opacity:.7;text-transform:none}
+.fbc-aws .case__body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:10px;flex:1}
+.fbc-aws .case__meta{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-muted);margin:0}
+.fbc-aws .case__title{font-size:17px;line-height:1.3;margin:0}
+.fbc-aws .case__excerpt{font-size:14.5px;color:var(--c-muted);margin:0}
+.fbc-aws .case__link{margin-top:auto;font-weight:600;font-size:14px;color:var(--c-brand);text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.fbc-aws .case__link::after{content:"→";transition:transform .15s ease}
+.fbc-aws .case__link:hover::after{transform:translateX(3px)}
+/* =====================  TESTIMONIALS  ===================== */
+.fbc-aws .testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.fbc-aws .tm{background:#fff;border:1px solid var(--c-line);border-radius:var(--r-xl);padding:28px;display:flex;flex-direction:column;gap:16px;position:relative}
+.fbc-aws .tm__mark{font-family:"Bricolage Grotesque",Manrope,sans-serif;font-size:64px;line-height:.5;color:var(--c-brand);opacity:.18;margin-bottom:-12px}
+.fbc-aws .tm__quote{font-size:15.5px;color:var(--c-ink);margin:0;line-height:1.55}
+.fbc-aws .tm__author{display:flex;align-items:center;gap:12px;margin-top:auto}
+.fbc-aws .tm__avatar{width:42px;height:42px;border-radius:50%;background:var(--c-brand);color:#fff;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center}
+.fbc-aws .tm__name{font-size:14px;font-weight:600;color:var(--c-ink);margin:0}
+.fbc-aws .tm__role{font-size:12.5px;color:var(--c-muted);margin:0}
+/* =====================  CTA  ===================== */
+.fbc-aws .cta{background:linear-gradient(140deg,#1e0a3c 0%,#5B21B6 50%,#7C3AED 100%);color:#fff;border-radius:var(--r-xl);padding:clamp(36px,5vw,64px) clamp(24px,4vw,56px);display:grid;grid-template-columns:1.4fr .6fr;gap:clamp(28px,4vw,56px);align-items:center;position:relative;overflow:hidden}
+.fbc-aws .cta::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 80% 0%,rgba(255,255,255,.15),transparent 50%);pointer-events:none}
+.fbc-aws .cta__inner{position:relative;z-index:1}
+.fbc-aws .cta h2{color:#fff;margin-bottom:14px}
+.fbc-aws .cta__sub{color:rgba(255,255,255,.78);max-width:50ch;margin-bottom:24px}
+.fbc-aws .cta__actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:14px}
+.fbc-aws .cta__btn-secondary{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.2);backdrop-filter:blur(6px)}
+.fbc-aws .cta__btn-secondary:hover{background:rgba(255,255,255,.18)}
+.fbc-aws .cta__small{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55);margin:0}
+.fbc-aws .cta__person{position:relative;z-index:1;text-align:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--r-lg);padding:24px;backdrop-filter:blur(8px)}
+.fbc-aws .cta__avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(140deg,#c4b5fd,#7C3AED);color:#fff;font-weight:700;font-size:22px;display:inline-flex;align-items:center;justify-content:center;margin:0 auto 14px;border:3px solid rgba(255,255,255,.18)}
+.fbc-aws .cta__name{font-size:16px;font-weight:600;color:#fff;margin:0 0 2px}
+.fbc-aws .cta__role{font-size:12.5px;color:rgba(255,255,255,.65);margin:0}
+/* =====================  AGENT CROSS-SELL  ===================== */
+.fbc-aws .agents{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.fbc-aws .agent{background:#fff;border:1px solid var(--c-line);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s ease,box-shadow .2s ease}
+.fbc-aws .agent:hover{transform:translateY(-3px);box-shadow:0 20px 50px -24px rgba(124,58,237,.22)}
+.fbc-aws .agent__cover{aspect-ratio:5/3;background:linear-gradient(160deg,var(--c-soft),#fff);display:flex;align-items:center;justify-content:center}
+.fbc-aws .agent__cover--ice{background:linear-gradient(160deg,var(--c-ice),#a78bfa)}
+.fbc-aws .agent__cover--mint{background:linear-gradient(160deg,#F5F3FF,var(--c-mint))}
+.fbc-aws .agent__cover--orange{background:linear-gradient(160deg,#ede9fe,#c4b5fd)}
+.fbc-aws .agent__glyph{width:64px;height:64px;border-radius:18px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--c-ink);box-shadow:0 8px 22px -10px rgba(124,58,237,.25)}
+.fbc-aws .agent__glyph svg{width:32px;height:32px}
+.fbc-aws .agent__body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.fbc-aws .agent__title{font-size:17px;margin:0}
+.fbc-aws .agent__desc{font-size:14px;color:var(--c-muted);margin:0;flex:1}
+.fbc-aws .agent__link{margin-top:6px;font-weight:600;font-size:14px;color:var(--c-brand);display:inline-flex;align-items:center;gap:6px}
+.fbc-aws .agent__link::after{content:"→";transition:transform .15s ease}
+.fbc-aws .agent__link:hover::after{transform:translateX(3px)}
+/* =====================  RESPONSIVE  ===================== */
+@media (max-width:980px){
+  .fbc-aws .hero__grid{grid-template-columns:1fr;gap:48px}
+  .fbc-aws .hero__visual{max-width:440px;margin:0 auto}
+  .fbc-aws .pillars{grid-template-columns:1fr;padding:16px 0}
+  .fbc-aws .pillar+.pillar::before{display:none}
+  .fbc-aws .pillar+.pillar{border-top:1px dashed var(--c-line)}
+  .fbc-aws .feature,.fbc-aws .feature--reverse{grid-template-columns:1fr;direction:ltr;gap:32px}
+  .fbc-aws .feature__media{order:-1}
+  .fbc-aws .process__head{grid-template-columns:1fr}
+  .fbc-aws .process__grid{grid-template-columns:repeat(2,1fr)}
+  .fbc-aws .cases{grid-template-columns:1fr}
+  .fbc-aws .testimonials{grid-template-columns:1fr}
+  .fbc-aws .cta{grid-template-columns:1fr;text-align:left}
+  .fbc-aws .cta__person{max-width:300px}
+  .fbc-aws .agents{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:560px){
+  .fbc-aws .process__grid{grid-template-columns:1fr}
+  .fbc-aws .agents{grid-template-columns:1fr}
+}
