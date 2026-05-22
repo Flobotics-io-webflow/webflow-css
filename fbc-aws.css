@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 /* =========================================================
    FBC-AWS — Scoped styles for the AWS Connect Health LP embed
    ========================================================= */
-.fbc-aws{--c-bg:#fff;--c-ink:#0c1426;--c-muted:#5b6477;--c-line:#e8eaf0;--c-soft:#f5f6fa;--c-brand:#2648dc;--c-brand-ink:#1a2eaa;--c-brand-soft:#e0f4ff;--c-mint:#d6f1e3;--c-mint-ink:#0f5132;--c-warm:#fde9d4;--c-warm-ink:#7a3d00;--c-ice:#d1fbff;--c-orange:#ff7a59;--r-sm:10px;--r-md:14px;--r-lg:22px;--r-xl:34px;--max:1180px;--gap:clamp(20px,3vw,40px);color:var(--c-ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
+.fbc-aws{--c-bg:#fff;--c-ink:#0c1426;--c-muted:#5b6477;--c-line:#e8eaf0;--c-soft:#f5f6fa;--c-brand:#2648dc;--c-brand-ink:#1a2eaa;--c-brand-soft:#e0f4ff;--c-mint:#d6f1e3;--c-mint-ink:#0f5132;--c-warm:#fde9d4;--c-warm-ink:#7a3d00;--c-ice:#d1fbff;--c-orange:#ff7a59;--r-sm:10px;--r-md:14px;--r-lg:22px;--r-xl:34px;--max:1180px;--gap:clamp(20px,3vw,40px);color:var(--c-ink);font-family:Manrope,system-ui,-apple-system,sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
 .fbc-aws *{box-sizing:border-box}
 .fbc-aws .container{max-width:var(--max);margin:0 auto;padding:0 24px}
 .fbc-aws .section{padding:clamp(56px,7vw,104px) 0}
 .fbc-aws .section--sm{padding:clamp(40px,5vw,80px) 0}
-.fbc-aws h1,.fbc-aws h2,.fbc-aws h3,.fbc-aws h4{font-family:"Bricolage Grotesque","Inter Tight",Inter,system-ui,sans-serif;font-weight:600;letter-spacing:-.02em;color:var(--c-ink);margin:0 0 .4em}
+.fbc-aws h1,.fbc-aws h2,.fbc-aws h3,.fbc-aws h4{font-family:"Bricolage Grotesque",Manrope,system-ui,sans-serif;font-weight:600;letter-spacing:-.02em;color:var(--c-ink);margin:0 0 .4em}
 .fbc-aws h1{font-size:clamp(36px,5.4vw,68px);line-height:1.04;letter-spacing:-.025em}
 .fbc-aws h2{font-size:clamp(28px,3.6vw,46px);line-height:1.1}
 .fbc-aws h3{font-size:clamp(22px,2.4vw,30px);line-height:1.18}
@@ -46,7 +47,7 @@
 .fbc-aws .logos{padding:36px 0 8px}
 .fbc-aws .logos__label{text-align:center;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--c-muted);margin:0 0 22px}
 .fbc-aws .logos__row{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:clamp(24px,4vw,56px);opacity:.85}
-.fbc-aws .logo-placeholder{font-family:"Bricolage Grotesque",Inter,sans-serif;font-weight:700;font-size:20px;letter-spacing:-.02em;color:#9aa3b6;padding:8px 4px;filter:grayscale(1)}
+.fbc-aws .logo-placeholder{font-family:"Bricolage Grotesque",Manrope,sans-serif;font-weight:700;font-size:20px;letter-spacing:-.02em;color:#9aa3b6;padding:8px 4px;filter:grayscale(1)}
 .fbc-aws .logo-placeholder--alt{font-style:italic}
 .fbc-aws .logo-placeholder--alt2{text-transform:uppercase;letter-spacing:.05em;font-size:14px}
 /* =====================  PILLARS  ===================== */
@@ -98,8 +99,8 @@
 .fbc-aws .case__cover{padding:36px 28px;background:linear-gradient(160deg,var(--c-ice),#c5b8ff);color:var(--c-brand-ink);min-height:170px;display:flex;align-items:flex-end}
 .fbc-aws .case__cover--mint{background:linear-gradient(160deg,#e8f6ee,var(--c-mint));color:var(--c-mint-ink)}
 .fbc-aws .case__cover--warm{background:linear-gradient(160deg,#fff0df,var(--c-warm));color:var(--c-warm-ink)}
-.fbc-aws .case__stat{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:38px;font-weight:700;letter-spacing:-.025em;line-height:1;display:flex;flex-direction:column;gap:6px}
-.fbc-aws .case__stat span{font-family:Inter,sans-serif;font-size:13px;font-weight:500;letter-spacing:0;opacity:.7;text-transform:none}
+.fbc-aws .case__stat{font-family:"Bricolage Grotesque",Manrope,sans-serif;font-size:38px;font-weight:700;letter-spacing:-.025em;line-height:1;display:flex;flex-direction:column;gap:6px}
+.fbc-aws .case__stat span{font-family:Manrope,sans-serif;font-size:13px;font-weight:500;letter-spacing:0;opacity:.7;text-transform:none}
 .fbc-aws .case__body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:10px;flex:1}
 .fbc-aws .case__meta{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-muted);margin:0}
 .fbc-aws .case__title{font-size:17px;line-height:1.3;margin:0}
